@@ -6,4 +6,4 @@ import math
 
 hyp = math.hypot(leg1, leg2)
 
-print("The hypotenuse is:", hyp)
+print("The hypotenuse is", hyp)
