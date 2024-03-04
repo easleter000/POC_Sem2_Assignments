@@ -12,7 +12,7 @@ class RightTriangle:
     def hypotenuse(self):
         return(math.sqrt(self.base ** 2 + self.height ** 2))
     def perimeter(self):
-        return(self.base + self.height, + tri2.hypotenuse())
+        return(self.base + self.height + (math.sqrt(self.base ** 2 + self.height ** 2)))
     
     
     
@@ -22,4 +22,4 @@ print("The base of tri2 is", tri2.base)
 print("The height of tri2 is", tri2.height)
 print("The area of tri2 is", tri2.area())
 print("The hypotenuse of tri2 is", tri2.hypotenuse())
-print("The perimeter is", tri2.perimeter)
+print("The perimeter is", tri2.perimeter())
