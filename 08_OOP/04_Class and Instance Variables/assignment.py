@@ -32,18 +32,21 @@ class Rectangle:
     def get_area(self) -> float:
         return self.__base * self.__height   
 
-
+    def __str__(self) -> str:
+        return "Rectangle of base:", self.__base , " height:", self.__height
         
 rec1 = Rectangle(7,8)
 print(rec1.get_area())
 print(rec1.get_base())
 print(rec1.get_height())
 print(rec1.get_perimeter())
+print(rec1.__str__())
 
 rec2 = Rectangle(10,18)
 print(rec2.get_area())
 print(rec2.get_base())
 print(rec2.get_height())
 print(rec2.get_perimeter())
+print(rec2.__str__())
 
 print("You have made", Rectangle.get_count(), "rectangles")
